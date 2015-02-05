@@ -13,39 +13,102 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
 
-
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Picturefill.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="js/picturefill.min.js" async></script>
+
+  <!-- jQuery.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="js/jquery-1.11.2.min.js"></script>
+
+  <!-- Modernizr.js
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="js/modernizr.js"></script>
+
 
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="header row">
       <div class="twelve columns">
-        <h4>Welcome to my new site!</h4>
-        <p>All new content will be hosted here <a href="http://www.kristofercharlesskinner.com">kristoferCharlesSkinner</a>.</p>
+        <h4>Testing 1-2-3</h4>
+        <p>A cyber site-o-rama of pixels, plugins and more.</p>
       </div>
     </div>
   </div>
+
+  <!-- Break
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <div class="break row">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <div class="main row">
+      <div class="twelve columns">
+        <h5>picturefill.js</h5>
+      </div>
+    </div>
+    <div class="main__picturefill row">
+      <div class="twelve columns">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="images/SC_large.jpg" media="(min-width: 960px)">
+              <source srcset="images/SC_medium.jpg" media="(min-width: 550px)">
+              <source srcset="images/SC_small.jpg" media="(min-width: 1px)">
+              <!--[if IE 9]></video><![endif]-->
+              <img srcset="images/SC_medium.jpg" alt="pixelated space cats">
+            </picture>
+            <p>Large pixel space cats.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Break
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <div class="break row">
+      <div class="twelve columns">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <div class="container">
     <div class="footer row">
       <div class="twelve columns">
-        <p>footer links and links nd links and links...</p>
+        <p>Copyright © 2015 <a href="http://www.kristofercharlesskinner.com">Kristofer Charles Skinner</a>.</p>
       </div>
     </div>
   </div>

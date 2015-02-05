@@ -1,3 +1,14 @@
+/* Global Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+img {
+	max-width: 60%;
+	height: auto;
+}
+
+/* Header Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .header {
 	background-color: #FFF;
 	text-align: center;
@@ -5,8 +16,30 @@
 	padding: 10px 0 0 0;
 }
 
+/* Main Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.main {
+	background-color: #FFF;
+	text-align: center;
+	height: auto;
+	padding: 10px 0 0 0;
+}
+
+.main__picturefill {
+	background-color: #FFF;
+	text-align: center;
+	height: auto;
+	padding: 10px 0 0 0;
+}
+
+/* Footer Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .footer {
 	background-color: #FFF;
+	font-size: 1rem;
+	font-style: italic;
 	text-align: center;
 	height: auto;
 	padding: 10px 0 0 0;

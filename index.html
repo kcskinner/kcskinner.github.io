@@ -23,30 +23,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Picturefill.js
+  <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <script src="js/picturefill.min.js" async></script>
-
-  <!-- jQuery.js
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <script src="js/jquery-1.11.2.min.js"></script>
-
-  <!-- Modernizr.js
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <script src="js/modernizr.js"></script>
-
-  <!-- Velocity.js
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+  <script src="js/picturefill.min.js" async></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/velocity.min.js"></script>
-
-  <!-- Animation.js
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <script src="js/animation.js"></script>
+  <script src="js/main.js"></script>
 
 
 </head>
@@ -60,19 +43,8 @@
   <div class="container">
     <div class="header row">
       <div class="twelve columns">
-        <h4>Testing 1-2-3</h4>
-        <p>A cyber site-o-rama of pixels, plugins and more.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Break
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <div class="container">
-    <div class="break row">
-      <div class="twelve columns">
-        <hr>
+        <h4 id="header__heading">TESTING 1-2-3</h4>
+        <p id="header__subHeading">A cyber site-o-rama of pixels, plugins and more.</p>
       </div>
     </div>
   </div>
@@ -83,20 +55,19 @@
   <div class="container">
     <div class="main row">
       <div class="twelve columns">
-        <h5>picturefill.js</h5>
+        <h6 id="main__heading">...Pixel Glitchy Bears...</h6>
       </div>
     </div>
     <div class="main__picturefill row">
       <div class="twelve columns">
-            <picture>
-              <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="images/SC_large.jpg" media="(min-width: 960px)">
-              <source srcset="images/SC_medium.jpg" media="(min-width: 550px)">
-              <source srcset="images/SC_small.jpg" media="(min-width: 1px)">
-              <!--[if IE 9]></video><![endif]-->
-              <img srcset="images/SC_medium.jpg" alt="pixelated space cats">
-            </picture>
-            <p>Large pixel space cats.</p>
+        <picture>
+          <!--[if IE 9]><video style="display: none;"><![endif]-->
+          <source srcset="images/TB_large.png" media="(min-width: 960px)">
+          <source srcset="images/TB_medium.png" media="(min-width: 550px)">
+          <source srcset="images/TB_small.png" media="(min-width: 1px)">
+          <!--[if IE 9]></video><![endif]-->
+          <img srcset="images/TB_medium.png" alt="pixelated space cats">
+        </picture>
       </div>
     </div>
   </div>

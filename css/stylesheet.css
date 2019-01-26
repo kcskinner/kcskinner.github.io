@@ -1,4 +1,18 @@
 body {
-  font-family: 'Major Mono Display', monospace;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Chelsea Market', cursive;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+h1 {
+  color: #333;
+}
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #0000EE;
+  outline: none;
+  text-decoration: underline;
 }
